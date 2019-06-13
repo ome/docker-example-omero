@@ -1,0 +1,13 @@
+---
+language: python
+sudo: required
+services:
+  - docker
+
+script:
+  - docker-compose version
+  - docker version
+  - ./test.sh
+
+after_failure:
+  - docker-compose logs
