@@ -1,5 +1,7 @@
 # OMERO.server amd OMERO.web (docker-compose)
 
+[![Build Status](https://travis-ci.com/manics/docker-example-omero.svg?branch=master)](https://travis-ci.com/manics/docker-example-omero)
+
 This is an example of running OMERO.server and OMERO.web in Docker.
 
 OMERO.server is listening on the standard OMERO ports `4063` and `4064`.
