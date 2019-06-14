@@ -1,4 +1,4 @@
-# OMERO.server amd OMERO.web (docker-compose)
+# OMERO.server and OMERO.web (docker-compose)
 
 [![Build Status](https://travis-ci.com/manics/docker-example-omero.svg?branch=master)](https://travis-ci.com/manics/docker-example-omero)
 
