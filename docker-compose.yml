@@ -3,7 +3,7 @@ version: "3"
 services:
 
   database:
-    image: "postgres:10"
+    image: "postgres:11"
     environment:
       POSTGRES_USER: omero
       POSTGRES_DB: omero
@@ -14,7 +14,7 @@ services:
       - "database:/var/lib/postgresql/data"
 
   omeroserver:
-    image: "openmicroscopy/omero-server:5.5"
+    image: "openmicroscopy/omero-server:5.6"
     environment:
       CONFIG_omero_db_host: database
       CONFIG_omero_db_user: omero
@@ -30,7 +30,7 @@ services:
       - "omero:/OMERO"
 
   omeroweb:
-    image: "openmicroscopy/omero-web-standalone:5.5"
+    image: "openmicroscopy/omero-web-standalone:5.6"
     environment:
       OMEROHOST: omeroserver
     networks:
