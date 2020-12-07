@@ -1,5 +1,7 @@
 # OMERO.server and OMERO.web (docker-compose)
 
+[![Actions Status](https://github.com/ome/docker-example-omero/workflows/Build/badge.svg)](https://github.com/ome/docker-example-omero/actions)
+
 This is an example of running OMERO.server and OMERO.web in Docker.
 
 OMERO.server is listening on the standard OMERO ports `4063` and `4064`.
