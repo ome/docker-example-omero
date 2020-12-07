@@ -12,10 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Check version
-        run: |
-          docker-compose version
-          docker version
       - name: Test
         run: ./test.sh
       - name: Check logs
