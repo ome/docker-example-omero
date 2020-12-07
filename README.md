@@ -1,6 +1,6 @@
 # OMERO.server and OMERO.web (docker-compose)
 
-[![Build Status](https://travis-ci.com/ome/docker-example-omero.svg?branch=master)](https://travis-ci.com/ome/docker-example-omero)
+[![Actions Status](https://github.com/ome/docker-example-omero/workflows/Build/badge.svg)](https://github.com/ome/docker-example-omero/actions)
 
 This is an example of running OMERO.server and OMERO.web in Docker.
 
