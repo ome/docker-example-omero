@@ -15,12 +15,12 @@ The initial password can be changed in [`docker-compose.yml`](docker-compose.yml
 
 First pull the latest major versions of the containers:
 
-    docker-compose pull
+    docker compose pull
 
 Then start the containers:
 
-    docker-compose up -d
-    docker-compose logs -f
+    docker compose up -d
+    docker compose logs -f
 
 For more configuration options see:
 - https://github.com/ome/omero-server-docker/blob/master/README.md
