@@ -31,6 +31,9 @@ jobs:
         run: colima start  
       - name: Test
         run: ./test.sh
+      - name: Check login
+        if: runner.os == 'ubuntu'
+        run: ./wait_for_login.sh
       - name: Check logs
         run: docker compose logs
         if: ${{ failure() }}
