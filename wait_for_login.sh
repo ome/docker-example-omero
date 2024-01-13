@@ -7,5 +7,6 @@ OMERO_PASS=omero
 OMERO=/opt/omero/server/OMERO.server/bin/omero
 
 # Wait up to 2 mins
+echo "Establishing connection with OMERO.server"
 docker compose exec -T omeroserver $OMERO login -C -s localhost -u "$OMERO_USER" -q -w "$OMERO_PASS" --retry 120
 echo "OMERO.server connection established"
