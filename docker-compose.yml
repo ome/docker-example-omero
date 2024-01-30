@@ -3,7 +3,7 @@ version: "3"
 services:
 
   database:
-    image: "postgres:11"
+    image: "postgres:14"
     environment:
       POSTGRES_USER: omero
       POSTGRES_DB: omero
