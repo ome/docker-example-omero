@@ -30,6 +30,10 @@ services:
       - "4064:4064"
     volumes:
       - "omero:/OMERO"
+    ulimits:
+      nofile:
+        soft: 8192
+        hard: 65536
 
   omeroweb:
     # This container uses the tag for the latest web release of OMERO 5
